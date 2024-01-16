@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/swiper.css" />
+    <link rel="stylesheet" href="/assets/css/style.min.css" />
+    <!--fontawesome-->
+    <link rel="stylesheet" href="/assets/fonts/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="/assets/fonts/css/brands.min.css" />
+    <link rel="stylesheet" href="/assets/fonts/css/solid.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>AirDrink</title>
+  </head>
+  <body id="mobile_wrap">
+    <div class="panel-overlay"></div>
+
+    <div class="views">
+      <div class="view view-main">
+        <div class="pages">
+          <div data-page="chat" class="page">
+            <div class="page-content">
+              <div
+                class="navbar"
+                style="width: 100%; background-color: #171a29"
+              >
+                <div
+                  class="d-flex"
+                  style="justify-content: space-between; width: 100%"
+                >
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-martini-glass-citrus"></i>&nbsp;영준's
+                    AirDrink
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="mr-3"
+                      src="/assets/img/avatar.png"
+                      style="width: 30px; height: 30px; border-radius: 30px"
+                    />
+                    &nbsp;
+                    <span style="font-size: 0.7rem">김채원님</span>
+                  </div>
+                </div>
+              </div>
+
+              <div id="pages_maincontent">
+                <h2 class="page_title">내 대화</h2>
+
+                <div class="page_single layout_fullwidth_padding">
+                  <ul class="messages">
+                    <li class="message__row message__row--undread">
+                      <a href="/conv ">
+                        <div class="message__avatar">
+                          <span class="message__active-user"></span
+                          ><img
+                            src="/assets/images/avatar.png"
+                            alt=""
+                            title=""
+                          />
+                        </div>
+
+                        <div class="message__details">
+                          <div class="message__user">아이유님</div>
+                          <p class="message__short-content">뭐하고 있어ㅋㅋ</p>
+                        </div>
+                        <div class="message__time">30초 전</div>
+                      </a>
+                    </li>
+                    <li class="message__row">
+                      <a href="/conv">
+                        <div class="message__avatar">
+                          <img
+                            src="/assets/images/avatar2.png"
+                            alt=""
+                            title=""
+                          />
+                        </div>
+
+                        <div class="message__details">
+                          <div class="message__user">유인나님</div>
+                          <p class="message__short-content">언제올껀데?</p>
+                        </div>
+                        <div class="message__time">2분전</div>
+                      </a>
+                    </li>
+                    <li class="message__row">
+                      <a href="/conv">
+                        <div class="message__avatar">
+                          <span class="message__active-user"></span
+                          ><img
+                            src="/assets/images/avatar3.png"
+                            alt=""
+                            title=""
+                          />
+                        </div>
+
+                        <div class="message__details">
+                          <div class="message__user">민지님</div>
+                          <p class="message__short-content">뭐하세요?ㅎㅎ</p>
+                        </div>
+                        <div class="message__time">30분전</div>
+                      </a>
+                    </li>
+                    <li class="message__row">
+                      <a href="/conv">
+                        <div class="message__avatar">
+                          <img
+                            src="/assets/images/avatar4.png"
+                            alt=""
+                            title=""
+                          />
+                        </div>
+
+                        <div class="message__details">
+                          <div class="message__user">가나다</div>
+                          <p class="message__short-content">가나다</p>
+                        </div>
+                        <div class="message__time">2주 전</div>
+                      </a>
+                    </li>
+                    <li class="message__row">
+                      <a href="/conv">
+                        <div class="message__avatar">
+                          <img
+                            src="/assets/images/avatar5.png"
+                            alt=""
+                            title=""
+                          />
+                        </div>
+
+                        <div class="message__details">
+                          <div class="message__user">가나다</div>
+                          <p class="message__short-content">가나다</p>
+                        </div>
+                        <div class="message__time">24년 1월 1일</div>
+                      </a>
+                    </li>
+                  </ul>
+
+                  <a href="#">
+                    <div
+                      class="btn btn-primary"
+                      style="
+                        border: 0px;
+                        width: 100%;
+                        padding-left: 12px;
+                        padding-right: 12px;
+                        margin-top: 40px;
+                      "
+                    >
+                      채팅 시작하기
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="/assets/js/jquery.validate.min.js"></script>
+    <script src="/assets/js/swiper.min.js"></script>
+    <script src="/assets/js/jquery.custom.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script></script>
+  </body>
+  <style>
+    body {
+      font-family: "Noto Sans KR", sans-serif;
+    }
+    .btn-primary {
+      background-color: #ff6251 !important;
+    }
+    .btn-primary:hover {
+      background-color: #d45d50 !important;
+    }
+  </style>
+</html>
